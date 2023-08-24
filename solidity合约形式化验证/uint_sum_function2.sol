@@ -11,7 +11,7 @@ contract Token {
     }
 
     function transfer(address receiver, uint amount) public {
-        balances[msg.sender] += amount;
+        //balances[msg.sender] += amount;
         balances[receiver] -= amount;
     }
 }
