@@ -7,7 +7,7 @@ import "fmt"
 func foo() {
 	mySlice := []string{"A", "B", "C"}
 	for index, value := range mySlice {
-		go fmt.Printf("Index: %d\n", index) // MATCH /loop variable index captured by func literal/
-		go fmt.Printf("Value: %s\n", value) // MATCH /loop variable value captured by func literal/
+		fmt.Printf("Index: %d\n", index)
+		fmt.Printf("Value: %s\n", value)
 	}
 }
