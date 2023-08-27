@@ -8,7 +8,7 @@
 |arbitrary_location_write_simple.sol|https://swcregistry.io/docs/SWC-124/|controlled-array-length|
 |crypto_roulette_fixed.sol|https://swcregistry.io/docs/SWC-109/|weak-prng, controlled-array-length, incorrect-equality, uninitialized-local|
 |crypto_roulette.sol|https://swcregistry.io/docs/SWC-109/|weak-prng, controlled-array-length, incorrect-equality, uninitialized-storage|
-|deposit_box_fixed.sol|https://swcregistry.io/docs/SWC-135/|uninitialized-state|
+|deposit_box_fixed.sol|https://swcregistry.io/docs/SWC-135/|无漏洞|
 |deposit_box.sol|https://swcregistry.io/docs/SWC-135/|uninitialized-state|
 |deprecated_simple_fixed.sol|https://swcregistry.io/docs/SWC-111/|suicidal, unchecked-lowlevel|
 |deprecated_simple.sol|https://swcregistry.io/docs/SWC-111/|suicidal, unchecked-lowlevel|
