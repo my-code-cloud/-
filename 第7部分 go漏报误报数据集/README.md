@@ -10,7 +10,7 @@
 |4.go|2 chaincode-read-after-write|
 |6.go|2 chaincode-pointer, 3 chaincode-global-variable|
 |11.go|无漏洞|
-|14.go||chaincode-read-after-write, 3 chaincode-math-overflow|
+|14.go|chaincode-read-after-write, 3 chaincode-math-overflow|
 |17.go|2 chaincode-pointer, chaincode-global-variable|
 |20.go|chaincode-global-variable|
 |37.go|3 chaincode-global-variable, chaincode-global-variable|
